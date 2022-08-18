@@ -1,0 +1,162 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+
+
+.header h2 {
+    text-align: center;
+   
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+    border: 4px solid red;
+    border-radius: 55px;
+    width: 250px;  
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+   
+    
+}
+.part h2 {
+    text-shadow: 1px 1px white;
+}
+
+.part ul a {
+    color:white;
+    text-decoration: none;
+    
+}
+.part li:hover {
+    background-color: black;
+    width: 120px;
+    
+    transition-delay: 0.1s;
+    /*color:black;   not working*/
+}
+.part li {
+     font-size: 20px;
+     text-shadow: 1px 1px;
+}
+.header {
+    padding: 20px;
+    background-color:  rgb(246, 162, 162);;
+    margin-bottom:35px;
+    /*position: fixed;   not working*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+body{
+    background:black;
+}
+.main_container {
+    width: 100%;
+}
+.container1 {
+    height: 200px;
+    border:2px solid white;
+    box-shadow:4px 4px 4px white;
+    width: 300px;
+}
+.container2 {
+    width: 300px;
+    height: 200px;
+    border:2px solid white;
+    box-shadow:4px 4px 4px white;
+    margin-top: 40px;
+    margin-left: 300px;
+    /* padding-left: 100px; */
+}
+.container3 {
+    width: 300px;
+    height: 200px;
+    border:2px solid white;
+    box-shadow:4px 4px 4px white;
+    margin-top: 40px;
+    margin-left: 600px;
+    /* padding-left: 100px; */
+}.container4 {
+    width: 300px;
+    height: 200px;
+    border:2px solid white;
+    box-shadow:4px 4px 4px white;
+    margin-top: 40px;
+    margin-left: 1000px;
+    /* padding-left: 100px; */
+}
+.text {
+    padding-top: 40px;
+    text-align:center;
+    color:white;
+}
+.text h2{
+    color:rgba(212, 26, 134, 0.841);
+    text-align:center;
+    padding-bottom:20px;
+    font-size:26px;
+    text-transform:uppercase;
+    
+   
+}
+.text1{
+    color:rgba(212, 26, 134, 0.841);
+    text-align:center;
+    font-size:30px;
+    text-transform:uppercase;
+    padding-top:80px;
+}
+
+.material {
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.image {
+    position: relative;
+}
+.image img{
+    width:100%;
+    opacity:0.5;
+}

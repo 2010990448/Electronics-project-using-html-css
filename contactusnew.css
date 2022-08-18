@@ -1,0 +1,155 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header h2 {
+    text-align: center;
+   
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+    border: 4px solid red;
+    border-radius: 55px;
+    width: 250px;  
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+   
+    
+}
+.part h2 {
+    text-shadow: 1px 1px white;
+}
+
+.part ul a {
+    color:white;
+    text-decoration: none;
+    
+}
+.part li:hover {
+    background-color: black;
+    width: 120px;
+    
+    transition-delay: 0.1s;
+    /*color:black;   not working*/
+}
+.part li {
+     font-size: 20px;
+     text-shadow: 1px 1px;
+}
+.header {
+    padding: 20px;
+    background-color:  rgb(246, 162, 162);;
+    margin-bottom:35px;
+    /*position: fixed;   not working*/
+}
+
+
+
+body{
+    background:url("/images/mapsssssss.jpg");
+
+    
+}
+body {
+    color: white;
+}
+.left{
+    margin-top:100px;
+    border:3px solid white;
+    width:50%;
+    height:440px;
+
+}
+.right{
+    margin-top:100px;
+    border:3px solid white;
+    width:50%;
+    height:440px;
+}
+.container {
+    display: flex;
+    margin-top: 80px;
+    column-gap:10px;
+    margin-bottom: 20px;
+}
+
+.left  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.left p{
+    padding-top:30px;
+}
+.form {
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.form input {
+    width: 300px;
+    height: 30px;
+    padding: 4px;
+    border:4px solid black;
+}
+.form textarea {
+   
+    width: 600px;
+    margin-top: 20px;
+   
+}
+button {
+    background: green;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+    margin-left: -490px;
+}
+.left h2{
+    text-shadow: 3px 2px 2px red;
+}
+.right {
+    text-align: center;
+}
+.right h2 {
+    padding-top: 30px;
+    text-shadow: 3px 2px 2px red;
+}
+.right p {
+    padding-top: 30px;
+   
+}
+p{
+    font-size:20px;
+}
+.heading {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    text-shadow: 3px 2px 2px red;
+}

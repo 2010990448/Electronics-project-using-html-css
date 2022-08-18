@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+
+
+
+.header h2 {
+    text-align: center;
+   
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+    border: 4px solid red;
+    border-radius: 55px;
+    width: 250px;  
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+   
+    
+}
+.part h2 {
+    text-shadow: 1px 1px white;
+}
+
+.part ul a {
+    color:white;
+    text-decoration: none;
+    
+}
+.part li:hover {
+    background-color: black;
+    width: 120px;
+  
+    transition-delay: 0.1s;
+    /*color:black;   not working*/
+}
+.part li {
+     font-size: 20px;
+     text-shadow: 1px 1px;
+}
+.header {
+    padding: 20px;
+    background-color:  rgb(246, 162, 162);;
+    margin-bottom:35px;
+    /*position: fixed;   not working*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: black;
+    color:white;
+}
+
+
+.heading {
+    text-align: center;
+    padding: 20px;
+
+    font-size: 30px;
+    text-shadow: 3px 2px 2px red;
+    box-shadow: 3px 2px 2px rgb(230, 157, 157);
+    border:3px solid white;
+    border-radius:25px ;
+    width:400px;
+    margin:auto;
+}
+
+
+
+
+
+
+/* div 1*/
+.main{
+    width:100%;
+    height:300px;
+    display:flex;
+    column-gap:10px;
+    margin-top:30px;
+    
+}
+.one{
+    width:50%;
+    border:2px solid white;
+    border-radius: 30px;
+    height:250px;
+    text-align:center;
+    padding-top:77px;
+    text-shadow: 3px 2px 2px red;
+    box-shadow: 3px 2px 2px rgb(230, 157, 157);
+    
+}
+.two{
+    width:50%;
+    border:2px solid white;
+    border-radius: 30px;
+    height:250px;
+    text-align:center;
+    padding-top:77px;
+    box-shadow: 3px 2px 2px rgb(230, 157, 157);
+}
+
+/*div 2*/
+.main_2{
+    width:100%;
+    height:300px;
+    display:flex;
+    column-gap:10px;
+    
+    
+}
+/*div 3*/
+.main_3{
+    width:100%;
+    height:300px;
+    display:flex;
+    column-gap:10px;
+    
+}
+
+/*div 4*/
+.main_4{
+    width:100%;
+    height:300px;
+    display:flex;
+    column-gap:10px;
+}
+
